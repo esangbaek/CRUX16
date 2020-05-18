@@ -3,8 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var swaggerUi = require('swagger-ui-express');
-var swaggerDocument = require('./swagger.json');
 var app = express();
 
 var indexRouter = require('./routes/index');
